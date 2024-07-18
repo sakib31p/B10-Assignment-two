@@ -203,6 +203,38 @@ height: 76px;
     color: white;
     margin-bottom: 14px;
 }
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* run section  */
+.run-title{
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: white;
+}
+.run-desc{
+    font-size: 14px;
+    margin-top: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+.run-text-container{
+  max-width: 367px;
+}
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+background: rgb(34, 34, 34);
+padding: 40px;
+}
+.run-img{
+    max-width: 367px;
+    border-radius: 10px;
+}
+/* run sec end  */
 
 
 
@@ -213,6 +245,42 @@ height: 76px;
 
 
 
+
+
+
+
+
+
+/* bmi calculator  */
+/* .table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+    width: 100%;
+    max-width: 310px;
+    margin: 20px auto;
+   
+}
+
+.row {
+    display: contents;
+}
+.card-title{
+font-size: 16px;
+font-weight: 500;
+color: white;
+}
+.cell {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ddd; 
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ .cell:hover {
+    background-color: gray
+}  */
 
 
 @media screen and (max-width : 576px) {
@@ -259,14 +327,19 @@ height: 76px;
         padding: 8px 16px 8px 16px;
         font-size: 16px;
     }
-    .btn-div{
+    .btn-div {
         display: flex;
     }
-    .image-container{
+    .image-container,  .run-section{
         flex-direction: column;
     }
     .habit-title{
         font-size: 1.5rem;
+    }
+    .run-img{
+      width: 280px;
+      margin-top: 20px;
+      border-radius: 10px;
     }
 
 }
