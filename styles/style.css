@@ -171,7 +171,38 @@ height: 76px;
 .description{
     color: rgba(239, 237, 232, 0.65);
 }
-
+/* habit section  */
+.habit-section{
+    max-width: 80%;
+    margin: 0 auto;
+    margin: 80px;
+    text-align: center;
+}
+.habit-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+.habit-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: 14px;
+}
+.image-container{
+    display: flex;
+    gap: 55px; 
+    justify-content: center;
+    margin-top: 45px;
+}
+.image-card{
+    border-radius: 50%;
+}
+.image-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 14px;
+}
 
 
 
@@ -230,6 +261,12 @@ height: 76px;
     }
     .btn-div{
         display: flex;
+    }
+    .image-container{
+        flex-direction: column;
+    }
+    .habit-title{
+        font-size: 1.5rem;
     }
 
 }
