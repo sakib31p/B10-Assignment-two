@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness club</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -18,12 +19,16 @@
             <p>Contact</p>
             <p>About</p>
          </div>
+
+         <div class="bars">
+            <i class="fa-solid fa-bars"></i>
+        </div>
          
-         <div class="bars"><i class="fa-thin fa-bars"></i></div>
         </nav>
+        
        <div class="banner-container">
         <div class="banner-text">
-            <h2 class="banner-title">Get body in <br><span>shape</span> & stay healthy</h2>
+            <h2 class="banner-title">Get body in <br><span class="title-font">shape</span> & stay healthy</h2>
             <p class="banner-desc">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
             <div class="btn-div">
                 <button class="btn-primary">Join Club Now!</button>
@@ -38,7 +43,7 @@
             </div>
             <div class="card-container">
                 <div class="color"></div>
-                <div>
+                <div class="card-2">
                     <p class="title">350+</p>
                 <p class="description">Video tutorial</p>
                 </div>
@@ -181,16 +186,23 @@
                     <input class="btn" type="button" value="Height/cm">
                     <input class="btn" type="button" value="Weight/kg">
                     <input class="btn" type="button" value="Age">
+                   <div class="sex-container">
                     <input  class="btn" type="button" value="Sex" >
+                   <div class="sex-arrow">
                     <i class="fa-solid fa-angle-down"></i>
+                   </div>
+                   </div>
+                    
                     
                 </div>
-                <div>
+                <div class="activity-container">
                     <input class="input-box" type="text" placeholder="Select an activity factor">
+                   <div class="input-arrow">
                     <i class="fa-solid fa-angle-down"></i>
+                   </div>
                 </div>
               
-
+                <button class="btn-primary">Calculate</button>
             </div>
           </div>
             
@@ -206,42 +218,42 @@
                     <p class="name">Jerome ball 
                     </p>
                     <br>
-                    <span class="title">Trainer</span>
+                    <span class="title-name">Trainer</span>
                 </div>
                 <div>
                     <img class="meet-img" src="images/trainer2.png" alt="">
                     <p class="name">Jerome ball 
                     </p>
                     <br>
-                    <span class="title">Trainer</span>
+                    <span class="title-name">Trainer</span>
                 </div>
                 <div>
                     <img class="meet-img" src="images/trainer3.png" alt="">
                     <p class="name">Jerome ball 
                     </p>
                     <br>
-                    <span class="title">Trainer</span>
+                    <span class="title-name">Trainer</span>
                 </div>
                 <div>
                     <img class="meet-img" src="images/trainer4.png" alt="">
                     <p class="name">Jerome ball 
                     </p>
                     <br>
-                    <span class="title">Trainer</span>
+                    <span class="title-name">Trainer</span>
                 </div>
                 <div>
                     <img class="meet-img" src="images/trainer5.png" alt="">
                     <p class="name">Jerome ball 
                     </p>
                     <br>
-                    <span class="title">Trainer</span>
+                    <span class="title-name">Trainer</span>
                 </div>
                 <div>
                     <img class="meet-img" src="images/trainer6.png" alt="">
                     <p class="name">Jerome ball 
                     </p>
                     <br>
-                    <span class="title">Trainer</span>
+                    <span class="title-name">Trainer</span>
                 </div>
             </div>
             
@@ -270,6 +282,8 @@
                 <p class="footer-link">App Design</p>
             </div>
         </div>
+
+        <hr>
 
     </footer>
     
