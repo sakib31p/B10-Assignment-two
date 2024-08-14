@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 * {
     margin: 0px;
     padding: 0px;
@@ -123,11 +123,13 @@ nav {
     top: 300px;
     right: 40px;
 }
-.title-font{
-    font-family: "Dancing Script", cursive;
-    font-size: 4.5rem;
-    font-weight: 500;
-}
+.miama-font{
+    font-family: 'Miama', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    }
 .card-title {
     color: rgb(255, 255, 255);
     font-size: 2.5rem;
@@ -319,9 +321,38 @@ nav {
     margin-top: 14px;
     margin-bottom: 80px;
 }
-
-
-
+/* extra section  */
+.extra-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.extra-sec-title{
+    font-size: 3.5rem;
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+}
+.extra-sec-desc{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.extra-sec-img-container > img{
+    width: 100%;
+}
+.extra-sec-img-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    border-radius: 8px;
+}
+#extra-sec-btn{
+    margin-top: 30px;
+    margin-left: 400px;
+}
 /* bmi calculator  */ 
 
 .bmi-container{
@@ -402,11 +433,11 @@ main > #bmi-id{
     width: 100%;
 }
 
-/* .fa-solid fa-angle-down{
+.fa-solid fa-angle-down{
     color: white;
     position: absolute;
     top: 100px;
-} */
+}
  .sex-container{
     position: relative;
  }
@@ -499,14 +530,24 @@ footer{
     font-size: 14px;
     margin-top: 20px;
     width: 380px;
+    height: auto;
 }
 .footer-link{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.4rem;
     margin-top: 20px;
 }
-
-
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+}
+.footer-end{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 @media screen and (max-width : 576px) {
     .nav-link {
@@ -588,6 +629,19 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
 
+    }
+    .extra-sec-title{
+        font-size: 2.5rem;
+    }
+    .extra-sec-img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        border-radius: 8px;
+    }
+    #extra-sec-btn{
+        margin-top: 30px;
+        margin-left: 100px;
     }
     .bmi-container{
         display: grid;
